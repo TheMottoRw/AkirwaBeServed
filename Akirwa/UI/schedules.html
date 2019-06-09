@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Schedules</title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<meta name="viewport" content="width=device-width">
+</head>
+<body>
+	<div class="menu">
+		<ul>
+			<li class="app-name"><a href="#">Akirwa</a></li>
+			<li class="active"><a href="schedules.html">Schedules</a></li>
+			<li><a href="appointments.html">Requests</a></li>
+		</ul>
+	</div>
+		<div class="row">
+			<h5 class="header header-main">SCHEDULES </h5>
+			<div class="col-5-large col-12-tab col-p">
+			<!-- <div class="col-0-large col-12-tab col-p form-element">
+			<input type="button" name="" class="header bg-blue" id="view-loans" value="View Loans">
+			</div> -->
+			<input type="text" name="search" id="search" placeholder="Search by keyword">
+				<div class="card-list">
+					<img src="images/users.png"  >
+					<div class="list-info">
+						<span class="list-user">2019-06-10</span>
+					</div>
+					<div class="list-info">
+						<span class='list-left'><span class='amount text-green'></span> From</span>&nbsp;|&nbsp;
+						<span class='list-middle'><span class="amount text-green">08h00</span> To</span>&nbsp;
+						<span id="list-right text-green">09h30</span>
+					</div>
+					<div class="list-info">
+						<!-- <span class="list-left"><span class='amount text-blue'>$315</span> Balance</span>&nbsp;|&nbsp; -->
+						<span class="list-middle">Meeting</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;
+						<span class="list-right text-status text-red">Busy</span>
+					</div>
+				</div>
+				<div class="card-list">
+					<img src="images/users.png"  >
+					<div class="list-info">
+						<span class="list-user">2019-06-10</span>
+					</div>
+					<div class="list-info">
+						<span class='list-left'><span class='amount text-green'></span> From</span>&nbsp;|&nbsp;
+						<span class='list-middle'><span class="amount text-green">09h30</span> To</span>&nbsp;
+						<span id="list-right text-green">12h30</span>
+					</div>
+					<div class="list-info">
+						<!-- <span class="list-left"><span class='amount text-blue'>$315</span> Balance</span>&nbsp;|&nbsp; -->
+						<span class="list-middle">Serve customer</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;
+						<span class="list-right text-status text-blue">Available</span>
+					</div>
+				</div>
+				<div class="card-list">
+					<img src="images/users.png"  >
+					<div class="list-info">
+						<span class="list-user">2019-06-10</span>
+					</div>
+					<div class="list-info">
+						<span class='list-left'><span class='amount text-green'></span> From</span>&nbsp;|&nbsp;
+						<span class='list-middle'><span class="amount text-green">14h00</span> To</span>&nbsp;
+						<span id="list-right text-green">17h00</span>
+					</div>
+					<div class="list-info">
+						<!-- <span class="list-left"><span class='amount text-blue'>$315</span> Balance</span>&nbsp;|&nbsp; -->
+						<span class="list-middle">Serve customer</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;
+						<span class="list-right text-status text-orange">Appointment</span>
+					</div>
+				</div>
+				<div class="card-list">
+					<img src="images/users.png"  >
+					<div class="list-info">
+						<span class="list-user">2019-06-11</span>
+					</div>
+					<div class="list-info">
+						<span class='list-left'><span class='amount text-green'></span> From</span>&nbsp;|&nbsp;
+						<span class='list-middle'><span class="amount text-green">08h00</span> To</span>&nbsp;
+						<span id="list-right text-green">12h30</span>
+					</div>
+					<div class="list-info">
+						<!-- <span class="list-left"><span class='amount text-blue'>$315</span> Balance</span>&nbsp;|&nbsp; -->
+						<span class="list-middle">Serve customer</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;
+						<span class="list-right text-status text-blue">Available</span>
+					</div>
+				</div>
+				<div class="card-list">
+					<img src="images/users.png"  >
+					<div class="list-info">
+						<span class="list-user">2019-06-11</span>
+					</div>
+					<div class="list-info">
+						<span class='list-left'><span class='amount text-green'></span> From</span>&nbsp;
+						<span class='list-middle'><span class="amount text-green">14h00</span> To</span>&nbsp;
+						<span id="list-right text-green">16h00</span>
+					</div>
+					<div class="list-info">
+						<!-- <span class="list-left"><span class='amount text-blue'>$315</span> Balance</span>&nbsp;|&nbsp; -->
+						<span class="list-middle">Serve customer</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;
+						<span class="list-right text-status text-blue">Available</span>
+					</div>
+				</div>
+				<input type="button" name="" class="header" value="Load more...">
+			</div><!--end col-6-large -->
+			<div class='col-7-large col-0-tab col-0-p'>
+
+					<!-- <div class="card-notifications table-notifier">repayment history  successfull loaded<span class="close">&times;</span>
+					</div> -->
+			<div class="table">
+				<table border="1" cellspacing="0">
+					<thead>
+					<tr><th class="table-caption" colspan='8'>Scheduled appointment</th></tr>
+						<tr>
+							<th>Counts</th>
+							<th>Name</th>
+							<th>Phone</th>
+							<th>Actions</th>
+						</tr>
+						<tr>
+							<th>Filter </th>
+							<th colspan="3">
+							<div class="form-element">
+								<input type='text' name="search" id="search" style="width: 90%" placeholder="search by name">
+							</div>
+							</th>
+							</tr>
+					</thead>
+					<tbody>
+						
+						<tr>
+							<td>1</td>
+							<td>Murenzi Ernest</td>
+							<td>07893234554</td>
+							<td><span class="list-actions">2019-06-09 <br>08:30-09:15</span></td>
+						</tr>
+						<tr>
+							<td>2</td>
+							<td>Hakizimana Didier</td>
+							<td>07237848334</td>
+							<td><span class="list-actions">2019-06-09 <br>09:30-09:45</span></td>
+						</tr>
+						<tr>
+							<td>3</td>
+							<td>Iradukunda Dany</td>
+							<td>07345485694</td>
+							<td><span class="list-actions">2019-06-09 <br>10:45-11:15</span></td>
+						</tr>
+						<tr>
+							<td>4</td>
+							<td>Kamanzi James</td>
+							<td>0723462892</td>
+							<td><span class="list-actions">2019-06-09 <br>11:30-12:15</span></td>
+						</tr>
+						<tr>
+							<td>5</td>
+							<td>Kamanzi James</td>
+							<td>0725783929</td>
+							<td><span class="list-actions">2019-06-09 <br>12:15-12:30</span></td>
+						</tr>
+						<tr>
+							<td>6</td>
+							<td>Uwineza Jacky</td>
+							<td>0723354454</td>
+							<td><span class="list-actions">2019-06-09 <br>14:30-14:50</span></td>
+						</tr>
+						<tr>
+							<td colspan="7"><input type="button" name="" class="header" value="Load more..."></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			</div>
+			
+		</div>
+		<div class="row">
+				<div class="col-12-lg col-12-tab col footer">&copy; Akirwa 2019
+				</div>
+		</div>
+</body>
+</html>
+<script type="text/javascript" src='js/scripts.js'></script>
+<script type="text/javascript">
+	initNotification('.header-main','.main-notifier');//loading repayment history
+initNotification('.repayment','.table-notifier');//loading repayment history
+
+</script>
